@@ -41,49 +41,49 @@ const Home = () => {
                 className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
                 onClick={
                     () => {
-                        navigate('/reminders');
+                        navigate('/setReminder');
                     }
                 }
             >Set Reminder</button>
 
-            //? Modify Reminder
+
             <button
                 className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
                 onClick={
                     () => {
-                        navigate('/modify');
+                        navigate('/updateReminder');
                     }
                 }
             >Modify Reminder</button>
-            //? Delete Reminder
+
             <button
                 className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
                 onClick={
                     () => {
-                        navigate('/delete');
+                        navigate('/deleteReminders');
                     }
                 }
             >Delete Reminder</button>
-            //? Disable Reminder
+
             <button
                 className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
                 onClick={
                     () => {
-                        navigate('/disable');
+                        navigate('/disableReminders');
                     }
                 }
             >Disable Reminder</button>
-            //?Enable Reminder
+
             <button
                 className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
                 onClick={
                     () => {
-                        navigate('/enable');
+                        navigate('/enableReminders');
                     }
                 }
             >Enable Reminder</button>
 
-            //? View Your reminders
+
             <button
                 className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
                 onClick={

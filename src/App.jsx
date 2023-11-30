@@ -33,7 +33,6 @@ export default function App() {
     persistUser();
   })
 
-  const token = localStorage.getItem('token');
 
   return (
     <>
